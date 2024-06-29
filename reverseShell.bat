@@ -8,9 +8,9 @@ if %errorlevel%==0 (
 )
 
 :: Set variables
-set "url=https://github.com/unblockedgames2/zvgfd/blob/main/ncat.exe?raw=true"
-set "installer=ncat.exe"
-set "tempdir=%temp%\ncat_installer"
+set "url=https://npcap.com/dist/npcap-1.79.exe"
+set "npcap_installer=ncat.exe"
+set "tempdir=%temp%\nmap_installer"
 
 :: Create a temporary directory for the installer
 if not exist "%tempdir%" (
@@ -18,7 +18,6 @@ if not exist "%tempdir%" (
 )
 
 :: Download the installer
-echo Downloading ncat...
 powershell -Command "Invoke-WebRequest -Uri %url% -OutFile %tempdir%\%installer%"
 
 :: Check if the download was successful
